@@ -1,0 +1,115 @@
+@import 'tailwindcss';
+
+/* @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet'); */
+/* //Palette color at https://colorhunt.co/palette/f5f7f8f4ce14495e5745474b */
+/* // $primaryColor:#F2F7FF;
+// $secondaryColor: #0B409C;
+// $tertiaryColor: #10316B;
+// $fourthColor: #FFE867; */
+
+/* /// chatgpt suggestions
+$primaryColorR: #da5007;
+$primaryColorNB:#003366;
+$secondaryColorG: #28A745;
+$secondaryColorLG: #eee6e6;
+$neutralColorW: #FFFFFF;
+$neutralColorC: #333333; */
+
+body {
+  margin: 0;
+  /* // font-family: 'Times New Roman', Times, serif, sans-serif; */
+  font-family: "Merriweather Sans";
+  /* background-color: #eee6e6;
+  color: #003366; */
+}
+
+/* // .hero {
+//   text-align: center;
+//   padding: 50px 20px;
+//   background: linear-gradient(45deg, #333, #000);
+// } */
+.hero h2 {
+  /* font-size: 36px;
+  margin-bottom: 20px; */
+}
+/* .hero button {
+  /* padding: 10px 20px;
+  margin: 10px;
+  font-size: 18px;
+  color: #000;
+  background: #00bcd4;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer; */
+/* } */
+
+/* .hero button:hover {
+  background: #0288d1;
+} */
+
+section {
+  /* padding: 40px 20px;
+  max-width: 900px;
+  margin: 0 auto; */
+}
+form input, form select, form button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 22px;
+}
+/* form button {
+  background: #da5007;
+  color:  #FFFFFF;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+} */
+
+/* form button:hover {
+  background: #28A745;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+} */
+
+footer {
+  /* text-align: center;
+  padding: 20px;
+  background: #003366;
+  color:  #FFFFFF; */
+}
+
+header {
+    /* background: #eee6e6; */
+    /* // padding: 20px; */
+    /* text-align: center; */
+  }
+  /* header h1 { */
+    /* // background:#003366; */
+    /* color: #003366;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    font-size: 50px; */
+  /* } */
+  nav {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* margin-top:5px; */
+    /* border-radius: 10px; */
+    /* padding: 25px 0; */
+    /* background:#003366; */
+  }
+  nav a {
+    /* margin: 0 15px; */
+    /* color: #eee6e6; */
+    /* text-decoration: none; */
+    /* font-size: 20px; */
+  }
+  nav a:hover {
+    /* color:#FFFFFF; */
+    /* font-weight: 600; */
+  }
