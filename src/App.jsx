@@ -36,13 +36,6 @@ function App() {
             <div className=''>
                 <Footer />
             </div>
-            {/* <Header />
-            <HeroButton />
-            <FindBloodForm />
-            <RegisterDonorForm />
-            <AboutUs />
-            <ContactUs />
-            <Footer /> */}
         </div>
 
     function changeViewHandler(){
